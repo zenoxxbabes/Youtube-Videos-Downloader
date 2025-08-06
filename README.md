@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+# 🔻YouTube Video Downloader
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **raw frontend** for a YouTube video downloader. Due to YouTube's restrictions and policies, this project does **not** support actual downloading of YouTube videos.
 
-Currently, two official plugins are available:
+## 🚫 Disclaimer
+This project is for **educational purposes only** and does **not** include any backend or API capable of bypassing YouTube’s restrictions or downloading YouTube videos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Features
+- Clean and simple UI
+- Input field for video URL
+- Placeholder button for downloading
+- Can be extended for other video sources (if supported)
 
-## Expanding the ESLint configuration
+## ❗ Limitations
+- **Does not download YouTube videos**
+- No backend/API integrated
+- YouTube blocking prevents download functionality
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## ✅ How to Use
+1. Paste a video link (currently for demo only)
+2. Click the download button (no real download happens)
+3. UI can be used for integrating any valid download backend or external API
 
-- Configure the top-level `parserOptions` property like this:
+## 📁 Files
+- `index.html` – Main HTML file
+- `style.css` – Basic styling
+- `script.js` – Button logic (demo only)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 💡 Future Ideas
+- Add support for other video sources
+- Connect to a valid server-side API for video processing
+- Convert to a multi-platform downloader UI
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 📜 License
+This project is open for learning and UI reference only. No copyright infringement intended.
